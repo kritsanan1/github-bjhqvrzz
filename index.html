@@ -1,0 +1,53 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes, minimum-scale=1.0, maximum-scale=5.0" />
+    <title>InkAI Studio - Where AI Meets Artistry</title>
+    
+    <!-- Security Headers -->
+    <meta http-equiv="Content-Security-Policy" content="
+      default-src 'self';
+      script-src 'self' 'unsafe-inline' 'unsafe-eval' https://fonts.googleapis.com;
+      style-src 'self' 'unsafe-inline' https://fonts.googleapis.com https://fonts.gstatic.com;
+      font-src 'self' https://fonts.gstatic.com;
+      img-src 'self' data: https://images.pexels.com https://*.pexels.com;
+      connect-src 'self' https://api.snyk.io https://api.owasp.org https://*.supabase.co;
+      frame-ancestors 'none';
+      base-uri 'self';
+      form-action 'self';
+      upgrade-insecure-requests;
+    ">
+    <meta http-equiv="X-Content-Type-Options" content="nosniff">
+    <meta http-equiv="X-Frame-Options" content="DENY">
+    <meta http-equiv="X-XSS-Protection" content="1; mode=block">
+    <meta http-equiv="Referrer-Policy" content="strict-origin-when-cross-origin">
+    <meta http-equiv="Permissions-Policy" content="camera=(), microphone=(), geolocation=()">
+    
+    <!-- Preconnect for performance -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Orbitron:wght@400;500;700;900&display=swap" rel="stylesheet">
+    
+    <!-- SEO and Social Meta -->
+    <meta name="description" content="Premium AI-powered tattoo studio creating unique, personalized designs through cutting-edge technology and master artistry.">
+    <meta name="keywords" content="AI tattoo design, custom tattoos, tattoo studio, artificial intelligence, tattoo art">
+    <meta name="author" content="InkAI Studio">
+    
+    <!-- Open Graph -->
+    <meta property="og:title" content="InkAI Studio - Where AI Meets Artistry">
+    <meta property="og:description" content="Premium AI-powered tattoo studio creating unique, personalized designs">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://inkaistudio.com">
+    
+    <!-- Twitter Card -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="InkAI Studio - Where AI Meets Artistry">
+    <meta name="twitter:description" content="Premium AI-powered tattoo studio creating unique, personalized designs">
+  </head>
+  <body class="bg-dark-950 text-white">
+    <div id="root"></div>
+    <script type="module" src="/src/main.tsx"></script>
+  </body>
+</html>
